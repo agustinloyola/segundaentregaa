@@ -1,5 +1,6 @@
 import React from "react";
 import { Card } from "react-bootstrap";
+import { ItemQuiantitySelector } from "../ItemQuiantitySelector";
 
 const ItemDetailContainer = ({product}) => {
     return (
@@ -23,6 +24,9 @@ const ItemDetailContainer = ({product}) => {
               <Card.Title>{product.title}</Card.Title>
               <Card.Text>{product.description}</Card.Text>
             </Card.Body>
+            <ItemQuiantitySelector />
+            
+            
           </Card>
         
       
